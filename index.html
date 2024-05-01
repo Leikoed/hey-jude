@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatles</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif; /* Ganti font default dengan Arial atau font sans-serif lainnya */
+      line-height: 1.6; /* Tinggi garis untuk meningkatkan kejelasan teks */
+    }
+
+    p {
+      font-size: 1rem; /* Ukuran font paragraf */
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Beatles</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#tentang">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#layanan">Album</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff">Member</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Banner -->
+  <div class="container-fluid banner">
+    <div class="container text-center">
+      <h4 class="display-1">Selamat Datang di Beatles</h4>
+      <h3 class="display-6">Website jualan album The Beatles</h3>
+      <a href="#layanan">
+        <button type="button" class="btn btn-danger btn-lg">Cek Album</button>
+      </a>
+    </div>
+  </div>
+  <!-- Tentang -->
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+      <h2 class="display-4 text-center" id="tentang">Beatles</h2>
+      <p class="display-6 text-center">
+        Beatles adalah web yang menjual album The Beatles dari awal hingga akhir karirnya.
+      </p>
+    </div>
+  </div>
+    <!-- Layanan -->
+    <div class="container-fluid layanan pt-5 pb-5">
+      <div class="container text-center">
+        <h2 class="display-3" id="layanan">Album</h2>
+        <!-- Div-row untuk gambar atas (3 kolom) -->
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <img src="icons/Abbeyroad.jpg" class="layanan-img" />
+            <h3 class="mt-3">Abbey Road</h3>
+            <p>
+            Album tahun 1969 dengan lagu hit paling banyak, mulai dari "Here comes the sun" hingga "Golden Slumbers". ini merupakan album terbaik The Beatles selama karirnya
+            </p>
+          </div>
+    
+          <div class="col-md-4">
+            <img src="icons/TheBeatles68LP.jpg" class="layanan-img" />
+            <h3 class="mt-3">The Beatles</h3>
+            <p>
+              Album yang dibuat pada tahun 1968 dengan hit terbaiknya berjudul "Blackbird"
+            </p>
+          </div>
+    
+          <div class="col-md-4">
+            <img src="icons/LetItBe.jpg" class="layanan-img" />
+            <h3 class="mt-3">Let It Be</h3>
+            <p>
+              Sesuai dengan nama Albumnya, Lagu terbaik dalam album ini berjudul "Let It Be" ciptaan Paul McCartney
+          </div>
+        </div> <!-- Akhir div-row untuk gambar atas -->
+    
+        <!-- Div-row untuk gambar bawah (2 kolom) -->
+        <div class="row pt-4">
+          <div class="col-md-6">
+            <img src="icons/Revolver.jpg" class="layanan-img" />
+            <h3 class="mt-3">Revolver</h3>
+            <p>
+              Album yang didalamnya terdapat lagu terbaik sir Paul McCartney yaitu "Here, There, and Everywhere"
+            </p>
+          </div>
+    
+          <div class="col-md-6">
+            <img src="icons/HardDayUK.jpg" class="layanan-img" />
+            <h3 class="mt-3">A Hard Day's Night</h3>
+            <p>
+             lagu "And I Love Her" yang dinyanyikan oleh Kurt Cobain merupakan lagu yang ada di album ini
+            </p>
+          </div>
+        </div> <!-- Akhir div-row untuk gambar bawah -->
+      </div>
+    </div>
+    
+  <!-- Tim -->
+  <div class="container-fluid pt-5 pb-5 bg-light">
+    <div class="container text-center">
+      <h2 class="display-3" id="staff">The Beatles</h2>
+      <div class="row pt-4 gx-4 gy-4">
+        <div class="col-md-4 text-center tim">
+          <img src="profile/john Lennon.jpg" class="rounded-circle mb-3" />
+          <h4>John Lennon</h4>
+          
+          <p>
+            <a href="" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center tim">
+          <img src="profile/Bint.JPG" class="rounded-circle mb-3" />
+          <h4>Bintang Anugrah</h4>
+          <p>
+            <a href="" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center tim">
+          <img src="profile/paul mcCartney.jpg" class="rounded-circle mb-3" />
+          <h4>Sir Paul McCartney</h4>
+          <p>
+            <a href="" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+        <div class="col-md-6 text-center tim">
+          <img src="profile/George_Harrison.jpg" class="rounded-circle mb-3" />
+          <h4>George Harrison</h4>
+          <p>
+            <a href="" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+        <div class="col-md-6 text-center tim">
+          <img src="profile/Ringo.png" class="rounded-circle mb-3" />
+          <h4>Ringo Starr</h4>
+          <p>
+            <a href="" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Client -->
+  <div class="container-fluid client pt-5 pb-5">
+    <div class="container text-center">
+      <div class="row pt-4 gx-4 gy-4">
+        <div class="col">
+          <img src="icons/whatsapp.png" />
+        </div>
+        <div class="col">
+          <img src="icons/facebook.png" />
+        </div>
+        <div class="col">
+          <img src="icons/instagram.png" />
+        </div>
+        <div class="col">
+          <img src="icons/google-plus.png" />
+        </div>
+        <div class="col">
+          <img src="icons/twitter.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Kontak -->
+  <div class="container-fluid pt-5 pb-5 kontak">
+    <div class="container">
+      <h2 class="display-3 text-center" id="kontak">contact us</h2>
+      <p class="text-center">
+        Jika ada masalah atau saran bisa mengisi form dibawah ini.
+      </p>
+      <div class="row pb-3">
+        <div class="col-md-6">
+          <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama" />
+          <input class="form-control form-control-lg mb-3" type="text" placeholder="Email" />
+          <input class="form-control form-control-lg" type="text" placeholder="No. Phone" />
+        </div>
+        <div class="col-md-6">
+          <textarea class="form-control form-control-lg" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="col-md-3 mx-auto text-center">
+        <button type="button" class="btn btn-danger btn-lg">Kirim Pesan</button>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center pt-5 pb-5">
+    All Rights Reserved &copy; 2024
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>
